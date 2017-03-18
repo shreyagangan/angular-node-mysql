@@ -1,6 +1,6 @@
 # angular-node-mysql
 
-A sample application for adding and displaying books in a personal library
+A web organizer application for adding and displaying tasks 
 
 --------
 
@@ -21,25 +21,27 @@ https://dev.mysql.com/downloads/mysql/
 
 2. Create Database ad populate with entries
 
-Database: library; Table: library
+Database: organizer; Table: tasks
 Open the MySQL command prompt and use the following commands:
 
-CREATE DATABASE library;
+CREATE DATABASE organizer;
 
-USE library;
+USE organizer;
 
-CREATE TABLE library(
-   book_id INT NOT NULL AUTO_INCREMENT,
-   title VARCHAR(100) NOT NULL,
-   author VARCHAR(40) NOT NULL,
-   PRIMARY KEY ( book_id )
+CREATE TABLE tasks(
+   task_id INT NOT NULL AUTO_INCREMENT,
+   desc VARCHAR(100) NOT NULL,
+   PRIMARY KEY ( task_id )
 );
 
-INSERT INTO library (title, author) VALUES ("Pride And Prejudice", "Jane Austen");
+INSERT INTO tasks (desc) VALUES ("Wake up at 6:00 AM");
 
-SELECT * FROM library;
+SELECT * FROM tasks;
 
 ------------
+
+## Step 2: Create a Node-MySQL Connection
+
 
 
 
