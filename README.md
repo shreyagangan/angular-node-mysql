@@ -40,17 +40,18 @@ SELECT * FROM tasks;
 
 ------------
 
-## Step 2: Create a Node-MySQL Connection
+## Step 2: Run the Application
 
 ### 1. clone this repository 
 
 ### 2. using terminal open the directory of the project (with the package.json file) and run following command:
 
-npm install
+node server.js
 
+### 3. Open the application in browser at the following address:
 
-       
-npm install
+localhost:8080
+      
 
 
 
