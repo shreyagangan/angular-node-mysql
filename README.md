@@ -35,3 +35,10 @@ CREATE TABLE library(
    PRIMARY KEY ( book_id )
 );
 
+INSERT INTO library (title, author) VALUES ("Pride And Prejudice", "Jane Austen");
+
+SELECT * FROM library;
+
+------------
+
+
