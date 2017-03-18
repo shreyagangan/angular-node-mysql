@@ -1,6 +1,6 @@
-# angular-node-mysql
+# Organizer: angular-node-mysql
 
-A web organizer application for adding and displaying tasks 
+A Web Application for adding and displaying tasks to do using AngularJS, NodeJS, MySQL 
 
 --------
 
