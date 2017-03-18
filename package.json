@@ -1,15 +1,14 @@
 {
-  "name": "node-angular-mysql",
-  "version": "0.0.0",
-  "description": "sample application",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Hello!\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shreyagangan/angular-node-mysql.git"
-  },
-  "author": "shreya",
-  "license": "ISC"
+  "name"         : "organizer",
+  "version"      : "0.0.0",
+  "description"  : "A web application using AngularJS NodeJS and MySQL",
+  "main"         : "server.js",
+  "author"       : "Shreya",
+  "dependencies" : {
+    "body-parser"    : "^1.4.3",
+    "express"        : "^4.13.4",
+    "method-override": "^2.1.3",
+    "morgan"         : "^1.1.1",
+    "mysql": "^2.5.4"	
+  }
 }
